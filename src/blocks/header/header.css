@@ -1,0 +1,30 @@
+.header {
+    max-width: 882px;
+    min-width: 320px;
+    width: 100%;
+    margin: auto;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+    padding-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        padding-top: 28px;
+        padding-bottom: 42px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .header {
+        justify-content: space-around;
+    }
+}

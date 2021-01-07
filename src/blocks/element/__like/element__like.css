@@ -1,0 +1,17 @@
+.element__like {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-right: 22px;
+    padding: 0px;
+}
+
+.element__like:focus {
+    outline: none;
+}
+
+.element__like:hover {
+    opacity: 0.6;
+    transform: scale(1.25);
+    transition: ease-in 0.3s;
+}

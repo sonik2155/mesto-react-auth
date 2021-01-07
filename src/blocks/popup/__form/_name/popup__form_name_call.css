@@ -1,0 +1,20 @@
+.popup__name {
+    border: none;
+    max-width: 360px;
+    padding: 0px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-left: 36px;
+    margin-right: 36px;
+    padding-bottom: 12px;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 540px) {
+    .popup__name {
+        width: calc(100% - 40px);
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+}

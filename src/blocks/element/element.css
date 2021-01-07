@@ -1,0 +1,17 @@
+.element {
+    list-style: none;
+    padding-left: 0px;
+    display: grid;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0px;
+    grid-template-columns: repeat(auto-fit, 282px);
+    grid-gap: 18px 20px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 425px) {
+    .element {
+        grid-gap: 20px 20px;
+    }
+}

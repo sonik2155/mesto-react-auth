@@ -1,0 +1,6 @@
+.elements {
+    max-width: 1200px;
+    width: calc(100% - 320px);
+    min-width: 300px;
+    margin: auto;
+}

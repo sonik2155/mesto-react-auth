@@ -1,0 +1,10 @@
+.header__out {
+    color: #A9A9A9;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.header__out:hover {
+    opacity: 0.6;
+    transition: ease-in 0.3s;
+}

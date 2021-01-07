@@ -1,0 +1,6 @@
+.popup__pic {
+    max-height: 75vh;
+    width: 100%;
+    max-width: 75vw;
+    border-radius: 20px;
+}

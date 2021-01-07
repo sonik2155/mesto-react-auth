@@ -1,0 +1,29 @@
+.footer__copyrigth {
+    color: #545454;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer__copyrigth {
+        margin-left: 220px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .footer__copyrigth {
+        margin-left: 160px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .footer__copyrigth {
+        margin-left: 20px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
